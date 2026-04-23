@@ -45,18 +45,16 @@ To verify all functional features of the SauceDemo e-commerce website work corre
 
 ## Modules Tested
 
-| Module | TC Range | Total | Pass | Fail |
+| Module | TC_Range | TC_ID| Status | Status |
 |---|---|---|---|---|
-| Login | TC_001 - TC_010 | 10 | 10 | 0 |
-| Product Listing | TC_011 - TC_018 | 8 | 6 | 2 |
-| Product Detail | TC_019 - TC_023 | 5 | 4 | 1 |
-| Add to Cart | TC_024 - TC_028 | 5 | 4 | 1 |
-| Cart | TC_029 - TC_034 | 6 | 6 | 0 |
-| Checkout | TC_035 - TC_048 | 14 | 14 | 0 |
-| Logout | TC_049 - TC_052 | 4 | 4 | 0 |
-| Navigation | TC_053 - TC_055 | 3 | 3 | 0 |
-| **Total** | | **55** | **51** | **4** |
-
+| Login | TC_001 — TC_010 | ✅ Executed — 10 Pass |
+| Product Listing | TC_011 — TC_018 | ✅ Executed — 6 Pass 2 Fail |
+| Product Detail | TC_019 — TC_023 | ✅ Executed — 4 Pass 1 Fail |
+| Add to Cart | TC_024 — TC_028 | ✅ Executed — 4 Pass 1 Fail |
+| Cart | TC_029 — TC_034 | ✅ Executed — 6 Pass |
+| Checkout | TC_035 — TC_048 | ✅ Executed — 14 Pass |
+| Logout | TC_049 — TC_052 | ✅ Executed — 4 Pass |
+| Navigation | TC_053 — TC_055 | ✅ Executed — 3 Pass |
 ---
 
 ## Defect Summary
