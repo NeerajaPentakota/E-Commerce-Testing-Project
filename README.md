@@ -1,4 +1,4 @@
-# E-Commerce Testing Project 🛒
+# E-Commerce Testing Project 
 
 ## Project Overview
 A complete end-to-end Manual Testing project on the SauceDemo 
@@ -10,21 +10,21 @@ e-commerce web application (https://www.saucedemo.com)
 
 ---
 
-## 🎯 Objective
+##  Objective
 To verify all functional features of the SauceDemo e-commerce 
 website work correctly through structured manual testing, 
 API testing, and database validation.
 
 ---
 
-## 🌐 Application Under Test
+##  Application Under Test
 - **URL:** https://www.saucedemo.com
 - **Type:** E-Commerce Web Application
 - **Browser:** Google Chrome
 
 ---
 
-## 📁 Project Documents
+##  Project Documents
 
 | Document | Description | Status |
 |---|---|---|
@@ -38,7 +38,7 @@ API testing, and database validation.
 
 ---
 
-## 🧪 Modules Tested
+##  Modules Tested
 
 | Module | Test Cases | Status |
 |---|---|---|
@@ -54,7 +54,7 @@ API testing, and database validation.
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 
 | Tool | Purpose |
 |---|---|
@@ -67,7 +67,7 @@ API testing, and database validation.
 
 ---
 
-## 📊 Test Execution Summary
+##  Test Execution Summary
 *(Will be updated after Week 5)*
 
 | Total TCs | Executed | Passed | Failed | Blocked |
