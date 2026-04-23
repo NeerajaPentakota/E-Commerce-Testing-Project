@@ -45,7 +45,7 @@ To verify all functional features of the SauceDemo e-commerce website work corre
 
 ## Modules Tested
 
-| Module | TC_Range | TC_ID| Status | Status |
+| Module | TC_Range | Status |
 |---|---|---|---|---|
 | Login | TC_001 — TC_010 | ✅ Executed — 10 Pass |
 | Product Listing | TC_011 — TC_018 | ✅ Executed — 6 Pass 2 Fail |
