@@ -55,6 +55,7 @@ To verify all functional features of the SauceDemo e-commerce website work corre
 | Checkout | TC_035 — TC_048 | ✅ Executed — 14 Pass |
 | Logout | TC_049 — TC_052 | ✅ Executed — 4 Pass |
 | Navigation | TC_053 — TC_055 | ✅ Executed — 3 Pass |
+
 ---
 
 ## Defect Summary
