@@ -1,23 +1,23 @@
 # E-Commerce Testing Project
 
 ## Project Overview
-A complete end-to-end Manual Testing project on the SauceDemo
-e-commerce web application (https://www.saucedemo.com)
+
+A complete end-to-end Manual Testing project on the SauceDemo e-commerce web application (https://www.saucedemo.com)
 
 **Prepared By:** Neeraja Pentakota
 **Duration:** 8 Weeks
-**Status:** Week 5 Complete — Week 6 In Progress
+**Status:** Week 6 Complete - Week 7 In Progress
 
 ---
 
 ## Objective
-To verify all functional features of the SauceDemo e-commerce
-website work correctly through structured manual testing,
-API testing, and database validation.
+
+To verify all functional features of the SauceDemo e-commerce website work correctly through structured manual testing, API testing, and database validation.
 
 ---
 
 ## Application Under Test
+
 - **URL:** https://www.saucedemo.com
 - **Type:** E-Commerce Web Application
 - **Browser:** Google Chrome
@@ -33,8 +33,9 @@ API testing, and database validation.
 | RTM | 12 requirements traced to test cases | Complete |
 | Test_Cases | 55 test cases across 8 modules | Complete |
 | Bug_Report_Summary | 4 defects logged in JIRA | Complete |
-| API_Test_Cases | Postman REST API testing | In Progress |
-| SQL_Queries | Database validation queries | Upcoming |
+| API_Test_Cases | 10 API test cases - All Pass | Complete |
+| ECommerce_API_Testing_Collection | Postman collection exported | Complete |
+| SQL_Queries | Database validation queries | In Progress |
 | Test_Summary_Report | Final project summary | Upcoming |
 
 ---
@@ -60,6 +61,29 @@ API testing, and database validation.
 | Total TCs | Executed | Passed | Failed | Blocked | Pass Rate |
 |---|---|---|---|---|---|
 | 55 | 55 | 51 | 4 | 0 | 92.7% |
+
+---
+
+## API Testing Summary
+
+| Total API TCs | Passed | Failed | Pass Rate |
+|---|---|---|---|
+| 10 | 10 | 0 | 100% |
+
+### API Test Cases
+
+| TC ID | API Name | Method | URL | Status Code | Result |
+|---|---|---|---|---|---|
+| TC_API_001 | GET All Users | GET | /users | 200 | Pass |
+| TC_API_002 | GET Single User | GET | /users/1 | 200 | Pass |
+| TC_API_003 | GET Invalid User | GET | /users/999 | 404 | Pass |
+| TC_API_004 | GET All Posts | GET | /posts | 200 | Pass |
+| TC_API_005 | GET Single Post | GET | /posts/1 | 200 | Pass |
+| TC_API_006 | POST Create User | POST | /users | 201 | Pass |
+| TC_API_007 | POST Create Post | POST | /posts | 201 | Pass |
+| TC_API_008 | PUT Update User | PUT | /users/1 | 200 | Pass |
+| TC_API_009 | DELETE User | DELETE | /users/1 | 200 | Pass |
+| TC_API_010 | GET User Posts | GET | /users/1/posts | 200 | Pass |
 
 ---
 
@@ -99,11 +123,11 @@ API testing, and database validation.
 |---|---|---|
 | Week 1 | Tool Setup and Exploration | Complete |
 | Week 2 | Test Plan and RTM | Complete |
-| Week 3 | Test Cases Part 1 - Login, Products | Complete |
+| Week 3 | Test Cases Part 1 - Login and Products | Complete |
 | Week 4 | Test Cases Part 2 - Cart, Checkout, Logout | Complete |
 | Week 5 | Test Execution and Bug Reporting | Complete |
-| Week 6 | API Testing with Postman | In Progress |
-| Week 7 | SQL Database Validation | Upcoming |
+| Week 6 | API Testing with Postman | Complete |
+| Week 7 | SQL Database Validation | In Progress |
 | Week 8 | Final Report and Portfolio | Upcoming |
 
 ---
@@ -113,6 +137,6 @@ API testing, and database validation.
 **Neeraja Pentakota**
 Aspiring QA Test Engineer | Manual Testing | API Testing | SQL
 
-LinkedIn: linkedin.com/in/neerajapentakota
+LinkedIn: linkedin.com/in/neeraja-pentakota-41a935171
 Email: neeraja5806@gmail.com
-
+GitHub: github.com/NeerajaPentakota
