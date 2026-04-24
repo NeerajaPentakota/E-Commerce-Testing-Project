@@ -138,5 +138,7 @@ To verify all functional features of the SauceDemo e-commerce website work corre
 Aspiring QA Test Engineer | Manual Testing | API Testing | SQL
 
 LinkedIn: linkedin.com/in/neeraja-pentakota-41a935171
+
 Email: neeraja5806@gmail.com
+
 GitHub: github.com/NeerajaPentakota
