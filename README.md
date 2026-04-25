@@ -236,12 +236,18 @@ professional environment.
 ## About Me
 
 Neeraja Pentakota
+
 Aspiring QA Test Engineer
+
 MTech in Software Engineering — Dadi Institute of Engineering
 5 plus years of domain experience in data validation and 
 quality assurance across insurance, e-commerce and content 
 publishing industries.
 
+
 LinkedIn: linkedin.com/in/neeraja-pentakota-41a935171
+
 Email: neeraja5806@gmail.com
+
 GitHub: github.com/NeerajaPentakota
+
