@@ -6,7 +6,7 @@ A complete end-to-end Manual Testing project on the SauceDemo e-commerce web app
 
 **Prepared By:** Neeraja Pentakota
 **Duration:** 8 Weeks
-**Status:** Week 6 Complete - Week 7 In Progress
+**Status:** Week 7 Complete - Week 8 In Progress
 
 ---
 
