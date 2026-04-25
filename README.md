@@ -35,7 +35,8 @@ To verify all functional features of the SauceDemo e-commerce website work corre
 | Bug_Report_Summary | 4 defects logged in JIRA | Complete |
 | API_Test_Cases | 10 API test cases - All Pass | Complete |
 | ECommerce_API_Testing_Collection | Postman collection exported | Complete |
-| SQL_Queries | 10 SQL queries - All Pass | Complete|
+| SQL_Queries | 10 SQL validation queries - All Pass | Complete |
+| SQL_Test_Cases | SQL test cases documentation | Complete |
 | Test_Summary_Report | Final project summary | In Progress |
 
 ---
@@ -66,31 +67,49 @@ To verify all functional features of the SauceDemo e-commerce website work corre
 
 ## API Testing Summary
 
-| Total API TCs | Passed | Failed | Pass Rate |
+| Total API Tests | Passed | Failed | Pass Rate |
 |---|---|---|---|
 | 10 | 10 | 0 | 100% |
 
 ### API Test Cases
 
-| TC ID | API Name | Method | URL | Status Code | Result |
-|---|---|---|---|---|---|
-| TC_API_001 | GET All Users | GET | /users | 200 | Pass |
-| TC_API_002 | GET Single User | GET | /users/1 | 200 | Pass |
-| TC_API_003 | GET Invalid User | GET | /users/999 | 404 | Pass |
-| TC_API_004 | GET All Posts | GET | /posts | 200 | Pass |
-| TC_API_005 | GET Single Post | GET | /posts/1 | 200 | Pass |
-| TC_API_006 | POST Create User | POST | /users | 201 | Pass |
-| TC_API_007 | POST Create Post | POST | /posts | 201 | Pass |
-| TC_API_008 | PUT Update User | PUT | /users/1 | 200 | Pass |
-| TC_API_009 | DELETE User | DELETE | /users/1 | 200 | Pass |
-| TC_API_010 | GET User Posts | GET | /users/1/posts | 200 | Pass |
+| TC ID | API Name | Method | Expected Status | Result |
+|---|---|---|---|---|
+| TC_API_001 | GET All Users | GET | 200 | Pass |
+| TC_API_002 | GET Single User | GET | 200 | Pass |
+| TC_API_003 | GET Invalid User | GET | 404 | Pass |
+| TC_API_004 | GET All Posts | GET | 200 | Pass |
+| TC_API_005 | GET Single Post | GET | 200 | Pass |
+| TC_API_006 | POST Create User | POST | 201 | Pass |
+| TC_API_007 | POST Create Post | POST | 201 | Pass |
+| TC_API_008 | PUT Update User | PUT | 200 | Pass |
+| TC_API_009 | DELETE User | DELETE | 200 | Pass |
+| TC_API_010 | GET User Posts | GET | 200 | Pass |
 
 ---
-## SQL Testing Summary
+
+## SQL Database Testing Summary
 
 | Total SQL Queries | Passed | Failed | Pass Rate |
 |---|---|---|---|
 | 10 | 10 | 0 | 100% |
+
+### SQL Queries Executed
+
+| Query No | Description | Result | Status |
+|---|---|---|---|
+| SQL_001 | Get all users | 5 rows returned | Pass |
+| SQL_002 | Get all products | 6 rows returned | Pass |
+| SQL_003 | Get all orders | 8 rows returned | Pass |
+| SQL_004 | Products with price less than 20 | 4 rows returned | Pass |
+| SQL_005 | All completed orders | 4 rows returned | Pass |
+| SQL_006 | All pending orders | 3 rows returned | Pass |
+| SQL_007 | Total orders per user | 5 users with order counts | Pass |
+| SQL_008 | JOIN users and orders | 8 rows with combined data | Pass |
+| SQL_009 | JOIN products and orders | 8 rows with combined data | Pass |
+| SQL_010 | Most expensive product | Sauce Labs Fleece Jacket 49.99 | Pass |
+
+---
 
 ## Defect Summary
 
@@ -137,13 +156,22 @@ To verify all functional features of the SauceDemo e-commerce website work corre
 
 ---
 
+## Overall Testing Summary
+
+| Testing Type | Total | Passed | Failed | Pass Rate |
+|---|---|---|---|---|
+| Manual Test Cases | 55 | 51 | 4 | 92.7% |
+| API Test Cases | 10 | 10 | 0 | 100% |
+| SQL Queries | 10 | 10 | 0 | 100% |
+| Total Bugs Found | 4 | | | |
+
+---
+
 ## About Me
 
 **Neeraja Pentakota**
 Aspiring QA Test Engineer | Manual Testing | API Testing | SQL
 
 LinkedIn: linkedin.com/in/neeraja-pentakota-41a935171
-
 Email: neeraja5806@gmail.com
-
 GitHub: github.com/NeerajaPentakota
