@@ -35,8 +35,8 @@ To verify all functional features of the SauceDemo e-commerce website work corre
 | Bug_Report_Summary | 4 defects logged in JIRA | Complete |
 | API_Test_Cases | 10 API test cases - All Pass | Complete |
 | ECommerce_API_Testing_Collection | Postman collection exported | Complete |
-| SQL_Queries | Database validation queries | In Progress |
-| Test_Summary_Report | Final project summary | Upcoming |
+| SQL_Queries | 10 SQL queries - All Pass | Complete|
+| Test_Summary_Report | Final project summary | In Progress |
 
 ---
 
@@ -86,6 +86,11 @@ To verify all functional features of the SauceDemo e-commerce website work corre
 | TC_API_010 | GET User Posts | GET | /users/1/posts | 200 | Pass |
 
 ---
+## SQL Testing Summary
+
+| Total SQL Queries | Passed | Failed | Pass Rate |
+|---|---|---|---|
+| 10 | 10 | 0 | 100% |
 
 ## Defect Summary
 
@@ -127,8 +132,8 @@ To verify all functional features of the SauceDemo e-commerce website work corre
 | Week 4 | Test Cases Part 2 - Cart, Checkout, Logout | Complete |
 | Week 5 | Test Execution and Bug Reporting | Complete |
 | Week 6 | API Testing with Postman | Complete |
-| Week 7 | SQL Database Validation | In Progress |
-| Week 8 | Final Report and Portfolio | Upcoming |
+| Week 7 | SQL Database Validation | Complete |
+| Week 8 | Final Report and Portfolio | In Progress |
 
 ---
 
